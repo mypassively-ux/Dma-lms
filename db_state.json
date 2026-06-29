@@ -1,0 +1,737 @@
+{
+  "users": [
+    {
+      "id": "u_admin_1781884729840",
+      "name": "Digital Mfg Admin",
+      "email": "digitalmfg.2026@gmail.com",
+      "role": "admin",
+      "password": "$2b$10$rOpkGRrm2myZaxmta8C58eqU9PSCwehcn4L3v48.T.4nZ9vUyuqwe",
+      "isApproved": true,
+      "suspended": false,
+      "subscriptionPlan": "premium",
+      "avatar": "",
+      "joinedAt": "2026-06-19T15:58:49.840Z",
+      "customRoleId": null
+    },
+    {
+      "id": "u_super_admin_1781884729551",
+      "name": "Pandora Tech (Super Admin)",
+      "email": "pandoratecllc@gmail.com",
+      "role": "super_admin",
+      "password": "$2b$10$3fzX8CImm22JmQZiJ93tHOBHFdwcWcG2Har2XT8V29QeYVsnQ/Ebe",
+      "isApproved": true,
+      "suspended": false,
+      "subscriptionPlan": "premium",
+      "avatar": "",
+      "joinedAt": "2026-06-19T15:58:49.551Z",
+      "customRoleId": null
+    },
+    {
+      "id": "u_student",
+      "name": "Alex Rivera (Student)",
+      "email": "student@digitalmanufacturing.academy",
+      "role": "student",
+      "joinedAt": "2025-01-10",
+      "subscriptionPlan": "pro",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop",
+      "isApproved": true,
+      "suspended": false,
+      "password": "$2b$10$N0b0ZBzDuKK0K/RgJjksnuixh2BZHYNpFEXPXwg2OI3di2FZIw/s."
+    },
+    {
+      "id": "u_instructor",
+      "name": "Prof. Dr. Abdur Rahman (Instructor)",
+      "email": "instructor@digitalmanufacturing.academy",
+      "role": "instructor",
+      "joinedAt": "2024-05-15",
+      "isApproved": true,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
+      "suspended": false
+    },
+    {
+      "id": "u_admin",
+      "name": "Sarah Connor (Admin)",
+      "email": "admin@digitalmanufacturing.academy",
+      "role": "admin",
+      "joinedAt": "2024-01-01",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop",
+      "isApproved": true,
+      "suspended": false
+    },
+    {
+      "id": "u_super_admin",
+      "name": "Director James Smith (Super Admin)",
+      "email": "superadmin@digitalmanufacturing.academy",
+      "role": "super_admin",
+      "joinedAt": "2023-01-01",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop",
+      "isApproved": true,
+      "suspended": false
+    }
+  ],
+  "courses": [
+    {
+      "id": "c_1",
+      "title": "Introduction to Digital Twins & Smart Infrastructure",
+      "headline": "Build a fully synchronized virtual twin of physical industrial assets",
+      "description": "A comprehensive starter program structured by BCU investigators. Explores IoT data structures, visual asset geometry in CAD/CAM, and bridging real-time telemetry to Unity-based virtual mockups.",
+      "category": "Digital Twin",
+      "level": "Beginner",
+      "duration": "14 Hours",
+      "instructorId": "u_instructor",
+      "instructorName": "Prof. Dr. Abdur Rahman",
+      "price": 49,
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=400&fit=crop",
+      "lessons": [
+        {
+          "id": "l_1_1",
+          "title": "Introduction to Cyber-Physical Systems (CPS)",
+          "duration": "15 mins",
+          "type": "video",
+          "contentUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "isRequired": true
+        },
+        {
+          "id": "l_1_2",
+          "title": "Digital Twins: Core Blueprint Document",
+          "duration": "35 mins",
+          "type": "pdf",
+          "contentUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "isRequired": true
+        },
+        {
+          "id": "l_1_3",
+          "title": "Setting up sensor arrays with MQTT protocols",
+          "duration": "22 mins",
+          "type": "video",
+          "contentUrl": "https://www.w3schools.com/html/movie.mp4",
+          "isRequired": true
+        },
+        {
+          "id": "l_1_4",
+          "title": "Project Assignment: Simple Twin Definition",
+          "duration": "60 mins",
+          "type": "assignment",
+          "contentUrl": "Submit a PDF specifying your chosen dual-system architecture.",
+          "isRequired": true
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q_1_1",
+          "title": "MQTT & Virtual Synchronicity Assessment",
+          "passingScore": 80,
+          "questions": [
+            {
+              "id": "qq_1_1_1",
+              "question": "What constitutes the core function of a Digital Twin of a pump system?",
+              "options": [
+                "To show photos of the pump in different angles",
+                "Real-time physical asset simulation and parameter modeling via sensor feeds",
+                "To calculate shipping times",
+                "To provide offline print instruction leaflets only"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "id": "qq_1_1_2",
+              "question": "Which protocol is most widely used for sparse, high-frequency IoT data payloads?",
+              "options": [
+                "HTTP POST",
+                "MQTT / AMQP",
+                "FTP",
+                "SMTP"
+              ],
+              "correctAnswer": 1
+            }
+          ]
+        }
+      ],
+      "assignments": [
+        {
+          "id": "a_1_1",
+          "title": "Building an MQTT Broker Topology Diagram",
+          "description": "Provide an architecture document or file showing the data flow from physical Raspberry Pi nodes to an Express endpoint and the final CAD visual canvas.",
+          "dueDate": "Within 7 days",
+          "status": "pending"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rv_1",
+          "userId": "u_student_rev1",
+          "userName": "Marcus Aurelio",
+          "rating": 5,
+          "comment": "Amazing course. It describes exactly what we are deploying in our automotive plant.",
+          "date": "2025-05-18"
+        }
+      ],
+      "enrollmentCount": 1620,
+      "ratingAverage": 4.8,
+      "isPublished": true
+    },
+    {
+      "id": "c_2",
+      "title": "Industrial Robotics, CNC Machining & PLC Programming",
+      "headline": "Program complex assembly loops and smart manufacturing schedules",
+      "description": "An advanced curriculum focusing on 6-axis arm programming, G-code Generation, ladder logic, Siemens S7-1200 setups, and real-time safety protocols in smart manufacturing layouts.",
+      "category": "Industrial Robotics",
+      "level": "Advanced",
+      "duration": "22 Hours",
+      "instructorId": "u_instructor",
+      "instructorName": "Prof Javaid Butt",
+      "price": 89,
+      "image": "https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?w=600&h=400&fit=crop",
+      "lessons": [
+        {
+          "id": "l_2_1",
+          "title": "Introduction to Ladder Logic for PLC Modulators",
+          "duration": "25 mins",
+          "type": "video",
+          "contentUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "isRequired": true
+        },
+        {
+          "id": "l_2_2",
+          "title": "Industrial Robotic Arm Safety Zones and Guard Rails",
+          "duration": "18 mins",
+          "type": "video",
+          "contentUrl": "https://www.w3schools.com/html/movie.mp4",
+          "isRequired": true
+        },
+        {
+          "id": "l_2_3",
+          "title": "G-Code Optimization Reference Manual",
+          "duration": "45 mins",
+          "type": "pdf",
+          "contentUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "isRequired": true
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q_2_1",
+          "title": "Ladder Logic & CNC G-Code Quiz",
+          "passingScore": 75,
+          "questions": [
+            {
+              "id": "qq_2_1_1",
+              "question": "What is the function of the G01 command in CNC programming?",
+              "options": [
+                "Rapid travel position search",
+                "Linear intervention feed interpolation",
+                "Circular rotation interpolation",
+                "Pause application for coolant induction"
+              ],
+              "correctAnswer": 1
+            }
+          ]
+        }
+      ],
+      "assignments": [],
+      "reviews": [
+        {
+          "id": "rv_2",
+          "userId": "u_student_rev2",
+          "userName": "Liam Sterling",
+          "rating": 4,
+          "comment": "Very informative. Covers PLC parameters extremely well.",
+          "date": "2025-06-01"
+        }
+      ],
+      "enrollmentCount": 940,
+      "ratingAverage": 4.7,
+      "isPublished": true
+    },
+    {
+      "id": "c_101",
+      "title": "Digital Manufacturing Academy Course 101",
+      "headline": "Comprehensive TNE British Council & BCU Certified Core Competency Curriculum",
+      "description": "An expert-designed certification pathway covering the complete Industrial Evolution from Industry 4.0 to Industry 5.0 and emerging 6.0 cognitive networks. Gain practical skills in Parametric Generative Design, Additive Manufacturing workflows, bidirectionally synchronized Digital Twins, Cyber-Physical Systems (CPS), Industrial Data Analytics, Collaborative Robotics (Cobots), cybersecurity protocols, and Digital Maturity Readiness roadmaps.",
+      "category": "Smart Factory",
+      "level": "Advanced",
+      "duration": "36 Hours",
+      "instructorId": "u_instructor",
+      "instructorName": "Prof Javaid Butt",
+      "price": 0,
+      "image": "/src/assets/images/digital_manufacture_cover_1780932805161.png",
+      "lessons": [
+        {
+          "id": "l_101_0",
+          "title": "Course Introduction: Digital Manufacturing Academy Overview",
+          "duration": "10 mins",
+          "type": "pptx",
+          "contentUrl": "https://docs.google.com/presentation/d/1z7GJF7ZenxFnSfxBR7Da0lt3oec5ZtS0/embed?start=false&loop=false&delayms=3000",
+          "isRequired": true
+        },
+        {
+          "id": "l_101_1a",
+          "title": "Module 1 - PPTX 1: Course Roadmap & Learning Objectives",
+          "duration": "15 mins",
+          "type": "pptx",
+          "contentUrl": "https://docs.google.com/presentation/d/1dKg-aGkpSGP2DlugfUh-gs2GmNDhWOTJ/embed?start=false&loop=false&delayms=3000",
+          "isRequired": true,
+          "slides": [
+            {
+              "title": "TNE Academic Collaboration: Course Roadmap",
+              "content": "Birmingham City University (BCU) & American International University Bangladesh (AIUB) smart manufacturing pathway co-developed under the British Council Going Global Partnerships Grant.",
+              "bullets": [
+                "Prof Javaid Butt (Professor of Manufacturing & Product Design, BCU)",
+                "Md. Ashikul Alam Khan (Lecturer in Operations & Supply Chain Management, BCU)",
+                "Muhammad Adnan (Lecturer in Project Management, BCU)",
+                "Prof. Dr. Abdur Rahman (Associate Dean & Lead Investigator, AIUB)"
+              ]
+            },
+            {
+              "title": "Industry 4.0 to Industry 5.0 & 6.0 Evolution",
+              "content": "An immersive journey across industrial epochs with an emphasis on human-tech partnership, resilience, and circular resource efficiency.",
+              "bullets": [
+                "Industry 4.0: Cyber-Physical Systems (CPS), smart automation, and real-time sensor loops.",
+                "Industry 5.0: Collaborative robots (cobots), human-centric design, and system sustainability.",
+                "Industry 6.0: Living symbiotic industrial ecosystems, cognitive networks, and bio-tech design."
+              ]
+            },
+            {
+              "title": "Core Learning Objectives (DMA Course 101)",
+              "content": "By compiling the materials in Course 101, you will master the following skill domains:",
+              "bullets": [
+                "Map 9 core technological pillars of modern corporate factories.",
+                "Demonstrate parametric rule-based design and AI-assisted generative CAD/CAE topologies.",
+                "Assemble bidirectionally synchronized Digital Twins using physical sensor networks.",
+                "Formulate comprehensive cybersecurity OT resilience risk registers."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l_101_1b",
+          "title": "Module 1 - PDF 1: Pre-assessment Questionnaire",
+          "duration": "10 mins",
+          "type": "pdf",
+          "contentUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "isRequired": true,
+          "richTextContent": "======================================================\n  PRE-ASSESSMENT QUESTIONNAIRE\n======================================================\n\nBefore you dive into the syllabus, self-evaluate your baseline technical concepts across smart manufacturing:\n\n1. How familiar are you with the difference between a Digital Shadow and a Digital Twin?\n   [ ] Unfamiliar (Only understand basic CAD models)\n   [ ] Basic (Understand one-way physical-to-digital sensor feed)\n   [ ] Advanced (Can design two-way automated command integrations)\n\n2. What is your experience level with industrial IoT protocols?\n   [ ] None\n   [ ] Basic (Know HTTP methods and server requests)\n   [ ] Intermediate (Have configured local MQTT, OPC-UA, or AMQP brokers)\n\n3. Do you have physical working experience with PLC controllers (e.g., Siemens S7-1200)?\n   [ ] Yes, I program Ladder Logic routinely\n   [ ] No, but I understand the theory of relays"
+        },
+        {
+          "id": "l_101_1c",
+          "title": "Module 1 - PDF 2: Glossary of Terms (Jargon-free list of core vocabulary)",
+          "duration": "15 mins",
+          "type": "pdf",
+          "contentUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "isRequired": true,
+          "richTextContent": "======================================================\n  JARGON-FREE GLOSSARY OF SMART FACTORY VOCABULARY\n======================================================\n\nMaster these 6 key concepts to communicate with lead investigators on the factory floor:\n\n- DIGITAL TWIN (DT)\n  A fully synchronized virtual mirror of a physical asset. Unlike static CAD drawings, Digital Twins continuously receive live sensor streams AND send control feedback.\n\n- CYBER-PHYSICAL SYSTEM (CPS)\n  A network of physical machinery integrated with computer brains and sensors to monitor, compute, and actuate processes.\n\n- INDUSTRIAL INTERNET OF THINGS (IIOT)\n  The network of industrial machines equipped with smart telemetry tags (vibration sensors, power meters, thermo-couples) connected via network brokers.\n\n- MQTT PROTOCOL\n  A lightweight, extremely fast 'publish-subscribe' cellular/network protocol ideal for sending tiny telemetry data packets from remote machines to monitoring dashboards.\n\n- COBOT (COLLABORATIVE ROBOT)\n  Special robots built with advanced force and proximity sensors designed to work safely beside human operators on assembly lines without protective physical fences.\n\n- TOPOLOGY OPTIMISATION\n  An algorithm-driven CAD approach that removes redundant weight from an engineering part while keeping it fully structural, creating light-weight 'organic-looking' shapes."
+        },
+        {
+          "id": "l_101_2",
+          "title": "Module 2: Advanced Design & Additive Manufacturing Workflows",
+          "duration": "50 mins",
+          "type": "pptx",
+          "contentUrl": "https://docs.google.com/presentation/d/1dthMY3zBGlwl_bT6w8ZCrzz_VRABKoMR/embed?start=false&loop=false&delayms=3000",
+          "isRequired": true,
+          "richTextContent": "======================================================\n  MODULE 2: DESIGN & ADVANCED MANUFACTURING\n======================================================\n\n1. CORE DESIGN TECHNOLOGIES:\n- CAD (Computer-Aided Design): Enables precise 3D modelling and geometric definition. (Camba et al., 2023)\n- CAE (Computer-Aided Engineering): Validates designs through advanced simulation and analysis. (Chang, 2013)\n- PDM (Product Data Management): Ensures seamless collaboration and version control across teams.\n\n------------------------------------------------------\n2. PARAMETRIC, GENERATIVE & AI-ASSISTED DESIGN:\n- Parametric Design: Rule-based modelling that automatically updates geometry when parameters change.\n- Generative Design: Algorithm-driven exploration of thousands of design alternatives based on constraints, materials, and manufacturing methods.\n- AI-Assisted Tools: Machine learning algorithms that predict performance, suggest improvements, and accelerate design cycles.\n\n------------------------------------------------------\n3. AR/VR/MR FOR VIRTUAL PROTOTYPING:\n- Augmented Reality (AR): Overlays digital info onto physical environments for assembly and maintenance.\n- Virtual Reality (VR): Immersive digital environments for design validation, ergonomic testing, and collaborative reviews.\n- Mixed Reality (MR): Blend physical and digital worlds to manipulate virtual objects in real space.\n\n------------------------------------------------------\n4. DESIGN FOR EXCELLENCE (DfX):\nStrategic engineering approach to optimize performance across multiple lifecycle considerations:\n[ DFM (Mfg) | DFA (Assembly) | DFR (Reliability) | DFS (Security) ]\n[ DFC (Cost)| DFS (Service)  | DFSuS (Sust.)    | DFSC (Supply)  ]\n\n------------------------------------------------------\n5. TOPOLOGY OPTIMISATION:\nAdvanced computational design that removes unnecessary material while maintaining structural integrity. Creates organic, lightweight geometries. (Zhu et al., 2020)\n\n------------------------------------------------------\n6. ADDITIVE MANUFACTURING (AM):\nCreates parts layer by layer directly from digital models. Seven categories:\n1. Material Extrusion       2. Binder Jetting      3. Material Jetting\n4. Vat Photopolymerisation 5. Powder Bed Fusion   6. Sheet Lamination\n7. Directed Energy Deposition\n\n------------------------------------------------------\n7. AM QUALITY ASSURANCE, POST-PROCESSING & CERTIFICATION:\n[1] In-Process Monitoring (sensors track temperature & defects)\n[2] Post-Build Inspection (Non-destructive testing, dimensional checks)\n[3] Post-Processing (heat treatment, surface finish, machining)\n[4] Certification (ISO, ASTM standards like aerospace AS9100, medical ISO 13485)\n\n------------------------------------------------------\n8. CIRCULAR MANUFACTURING & LCA:\n- Circular Manufacturing: Shifting from \"take-make-waste\" to reuse, repair, remanufacturing, and recycling. (Stahel, 2019)\n- LCA (Life Cycle Assessment): Evaluate environmental impacts from raw material to disposal. (Biblioteca et al., 2026)\n- Carbon Accounting & Sustainability Metrics: Quantify emissions and map KPIs.\n- Circular Models: Product-as-a-Service, Extended Producer Responsibility, Industrial Symbiosis, and Renewable Resource Integration."
+        },
+        {
+          "id": "l_101_3",
+          "title": "Module 3: Physics-Based Simulations & Bidirectional Digital Twins",
+          "duration": "55 mins",
+          "type": "pptx",
+          "contentUrl": "https://docs.google.com/presentation/d/1dzzmkg0HseItZr8UUdNUQGq67yBMkJ5Z/embed?start=false&loop=false&delayms=3000",
+          "isRequired": true,
+          "richTextContent": "======================================================\n  MODULE 3: SIMULATIONS & DIGITAL TWINS\n======================================================\n\n1. PHYSICS-BASED SIMULATIONS:\n- Finite Element Analysis (FEA): Predicts structural behaviour under load to optimize durability and material weight. (Tobi et al., 2018)\n- Computational Fluid Dynamics (CFD): Models fluid flow and heat transfer inside manufacturing processes (injection moulding, cooling). (Juan Carlos, 2025)\n- Discrete Element Method (DEM): Simulates granular materials and particle interactions (powders, conveyor belts). (Guo and Curtis, 2015)\n\n------------------------------------------------------\n2. WHAT IS A DIGITAL TWIN?\nA dynamic virtual representation of a physical product, process, machine, or system, connected to real-world data and updated over time to reflect condition and performance.\n\n------------------------------------------------------\n3. CATEGORICAL DISTINCTION:\n- DIGITAL MODEL: Physical and digital objects are decoupled. Data flow is asynchronous (manual).\n- DIGITAL SHADOW: Direct near real-time automated data flow from physical to digital object (but NOT vice versa).\n- DIGITAL TWIN: Seamless, fully automated real-time bidirectional data flow between physical and digital objects.\n\n------------------------------------------------------\n4. FIVE-LAYER ARCHITECTURE (ISO 23247):\n- PHYSICAL LAYER: CNCs, robots, sensors, operators.\n- DATA LAYER: logs, environmental inputs, records.\n- MODEL LAYER: CADs, FEAs, statistical & ML layers.\n- ANALYTICS LAYER: AI intelligence, prediction models.\n- APPLICATION LAYER: dashboards, alerts, maintenance.\n\n------------------------------------------------------\n5. DIGITAL TWINS IN ADDITIVE MANUFACTURING:\nCombining CAD data, thermal images, and sensor readings to predict part quality instantly. Crucial because AM is highly sensitive to dramatic changes in laser speed or powder feed.\n\n------------------------------------------------------\n6. PREDICTIVE MAINTENANCE:\nTransforming reactive maintenance to condition-based monitoring.\n- DOWNTIME REDUCTION: 25% (predictive analytics identify anomalies)\n- MAINTENANCE COST SAVINGS: 40% (optimised scheduling reduces servicing)\n\n------------------------------------------------------\n7. CYBER-PHYSICAL SYSTEMS (CPS) VS DIGITAL TWINS:\n- CPS connects and CONTROLS physical systems (Sensors + Actuators + PLCs + Protocols).\n- Digital Twins MODEL, SIMULATE, PREDICT, and OPTIMIZE the systems."
+        },
+        {
+          "id": "l_101_4",
+          "title": "Module 4: Big Data Platforms, Edge AI & Cybersecurity",
+          "duration": "50 mins",
+          "type": "pptx",
+          "contentUrl": "https://docs.google.com/presentation/d/1kenUItVbwY8w9qxE6qQO3kgdL_h9YR8G/embed?start=false&loop=false&delayms=3000",
+          "isRequired": true,
+          "richTextContent": "======================================================\n  MODULE 4: DATA, AI & CYBERSECURITY IN MFG\n======================================================\n\n1. INDUSTRIAL DATA ANALYTICS:\nTreats factory data as a strategic asset rather than a by-product. Includes machine sensors, PLCs, cycle times, and supply chain logistics.\n\n------------------------------------------------------\n2. INDUSTRIAL DATA PLATFORMS: BUSINESS VALUE EVIDENCE:\n- Siemens' Amberg Electronics Plant:\n  Governed 50+ million data points/day. Achieved over 99.9% product quality, 75% process automation, and a defect rate below 15 parts per million!\n- Bosch Connected Industry:\n  Reduced unplanned downtime by ~25% and improved OEE by 5-10% across multiple plants.\n- Unilever Smart Factories:\n  Advanced data governance led to 15-20% reduction in energy consumption and 10-15% production efficiency gains.\n\n------------------------------------------------------\n3. AI APPLICATIONS IN ACTION:\n- General Electric: AI-driven predictive maintenance achieved a 20% reduction in maintenance costs & 10% gain in asset availability.\n- BMW: Computer vision quality checks achieved 30% faster inspection on production line with reduced error rates.\n- Caterpillar: Machine Learning analytics reduced unplanned downtime by 45% and overall maintenance fees by 20%.\n\n------------------------------------------------------\n4. EDGE AI AND INTELLIGENT CONTROL:\nProcesses data directly on-machine instead of transferring to the cloud. Low latency, immediate shutdown triggers.\n- Bosch edge cameras cut inspection latency to milliseconds, reducing defect escape rate by 25%.\n- Honeywell edge analytics reduced unplanned downtime by 30% via immediate fault responses.\n\n------------------------------------------------------\n5. CYBERSECURITY THREATS IN SMART FACTORIES:\nMALICIOUS ACTORS TARGETING CONNECTED ICS, OT, AND PROTOCOLS:\n- Ransomware (locks production, demands payout)\n- Malware (disrupts PLCs & G-code coordinates)\n- Phishing & Credential Theft (unauthorised access)\n- Supply Chain Attacks (malicious vendor updates)\n\nHISTORICAL SETBACKS:\n- Maersk (NotPetya Attack, 2017): Shut down IT/OT worldwide. Lost USD 300 Million.\n- Toyota Supplier Kojima Industries (2022): Shut down 14 Toyota plants (28 lines) in a single day. Lost estimated USD 375–400 Million.\n- NVIDIA Manufacturing Partner (2023): Credential theft led to massive proprietary chip design data leaks.\n\n------------------------------------------------------\n6. DIGITAL RISK REGISTER & GOVERNANCE:\nStructured 4-stage management:\n1. Identify & Assess -> 2. Mitigate & Control -> 3. Monitor & Detect -> 4. Respond & Improve\n- Ethical AI: ensuring transparency, explainability (XAI), accountability, and fairness in algorithmic decision-making."
+        },
+        {
+          "id": "l_101_5",
+          "title": "Module 5: Advanced Robotics, Collaborative Cobots & Dynamic Navigation",
+          "duration": "45 mins",
+          "type": "pptx",
+          "contentUrl": "https://docs.google.com/presentation/d/1sw-bFGVhpqt0XgdTX825MVpDYdoSvVLi/embed?start=false&loop=false&delayms=3000",
+          "isRequired": true,
+          "richTextContent": "======================================================\n  MODULE 5: ADVANCED ROBOTICS & INTELLIGENT MFG\n======================================================\n\n1. INDUSTRIAL ROBOTICS AND RECONFIGURABILITY:\nDeployment of programmable robotics (welding, assembly, paint, packaging). Modern systems are grouped into reconfigurable robotic work cells with machine vision integration.\n\n------------------------------------------------------\n2. COLLABORATIVE ROBOTS (COBOTS):\n- Purpose-built to work safely alongside human operators, augmenting capabilities rather than replacing them.\n- Equipped with force-sensing and active proximity sensors that automatically slow down or stop contact to prevent collisions.\n- Human-Robot Synergy: Combines human creativity, adaptability, and ethical judgment with robotic precision, repeatable strength, and raw mechanical speed.\n\n------------------------------------------------------\n3. ERGONOMICS, HR STANDARDS & WORKFORCE SAFETY:\nAdapting factory setups to minimize operator body strain. Alignment with Human-Robot Interaction (HRI) standards ensures intuitive gesture/touch interfaces. (Gualtieri et al., 2020)\n\n------------------------------------------------------\n4. AUTONOMOUS ROBOTS: AMRs VS AGVs:\nIntelligent transportation systems for physical material handling:\n- AGVs (Automated Guided Vehicles): Follow strict predefined routes using magnetic tape, markers, or tracks. Rigid and struggle with obstacles.\n- AMRs (Autonomous Mobile Robots): Use LiDAR sensors, cameras, mapping, and AI coordinates to navigate dynamically, bypass obstacles, and chart alternative paths in real time.\n\n------------------------------------------------------\n5. IIOT CONNECTED ECOSYSTEMS:\n- Connected Manufacturing: Integrating machines, software, and industrial networks so assets exchange live telemetry.\n- Smart Sensors: Continually collect temperature, vibration, hydraulic pressure, and power consumption.\n- Real-Time Insights: Instant database analysis feeds dashboards, providing operators with actionable alerts."
+        },
+        {
+          "id": "l_101_6",
+          "title": "Module 6: Strategic Roadmap Frameworks & Organizational Change",
+          "duration": "50 mins",
+          "type": "pptx",
+          "contentUrl": "https://docs.google.com/presentation/d/1y8w7Pl4eH_ikhOr-AY_Nh-2C0MjNtRxN/embed?start=false&loop=false&delayms=3000",
+          "isRequired": true,
+          "richTextContent": "======================================================\n  MODULE 6: DIGITAL TRANSFORMATION STRATEGY\n======================================================\n\n1. THE DIGITAL TRANSFORMATION ROADMAP:\nDigital Transformation (DX) is the strategic integration of digital technologies to reshape processes, business models, and workforce capabilities. (Iskuja, 2025)\n\n------------------------------------------------------\n2. THE FIVE-STAGE TRANSFORMATION MODEL:\n1. Assess Current State: Conduct digital maturity assessments to uncover process bottlenecks and skills gaps.\n2. Define Vision & Strategy: Match transformation goals directly to business outcomes (OEE, cost, carbon).\n3. Prioritise Technologies & Investments: Select tech (IoT, Cobots, Twins) based on feasibility and clear ROI estimates.\n4. Implement in Phased Pilots: Roll out small-scale high-impact pilot projects: scale proven systems while safeguarding data.\n5. Build Workforce Culture: Upskill teams in data literacy and cultivate continuous improvement change management (change to upskilling ecosystem).\n\n------------------------------------------------------\n3. READINESS ASSESSMENT TOOLS:\n- IMPULS / Industrie 4.0 Online Tool: Checks readiness across Strategy, Smart Factory, Smart Operations, Smart Products, Data Services, and Employees.\n- Transition is an integrated framework (Strategy, Tech, Data, People, Processes, Governance, Value) rather than a simple software purchase!\n\n------------------------------------------------------\n4. GREENFIELD VS BROWNFIELD DIGITALISATION:\n- GREENFIELD: Building new factories from scratch. Designed with IoT-native machines, perfect data flows, and zero historical legacy constraints. Highly expensive, but zero integration friction.\n- BROWNFIELD: Modernising existing plants & legacy devices by retrofitting sensors, adding communication protocols, and phasing updates. Economical for SMEs but highly complex. (Hammond et al., 2023)\n\n------------------------------------------------------\n5. DIGITAL FINANCING:\n- Clear ROI modeling: assessing operational savings, raw waste reduction, and risk mitigation cases.\n- Grants and Incentive Schemes: government subsidies to support IoT pilot adoption and workforce upskilling.\n- PPP (Public-Private Partnerships): pooling capital, technical research (such as BCU and AIUB teams), and corporate players to distribute scale risk."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q_101",
+          "title": "Digital Manufacturing Academy Course 101 Certification Quiz",
+          "passingScore": 80,
+          "questions": [
+            {
+              "id": "qq_101_1",
+              "question": "What is the primary goal of digital manufacturing?",
+              "options": [
+                "Expedite communication speed without mechanical change",
+                "Increase manual labor ratios",
+                "Improve process efficiency, product quality and manufacturing innovation",
+                "Enhance localized software dependencies only"
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "id": "qq_101_2",
+              "question": "Which industrial revolution introduced automation, PLCs, and computers into manufacturing?",
+              "options": [
+                "Industry 1.0",
+                "Industry 2.0",
+                "Industry 3.0",
+                "Industry 6.0"
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "id": "qq_101_3",
+              "question": "Which of the following are key characteristics of smart manufacturing?",
+              "options": [
+                "Manual paper-based scheduling and localized standalone silos",
+                "Real-time data monitoring/connectivity and intelligent automation/decision-making",
+                "Complete removal of human operators and manual safety gears",
+                "Substantially high upfront costs with no feedback protocols"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "id": "qq_101_4",
+              "question": "Which of the following principles best describe the concept of Industry 6.0?",
+              "options": [
+                "Complete replacement of humans by autonomous grid networks",
+                "Greater integration of human-centric/ethical technologies and enhanced focus on sustainability & societal wellbeing",
+                "Exclusively focusing on vertical production silos with no environmental metrics",
+                "Replacing cybersecurity protocols with offline paper files"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "id": "qq_101_5",
+              "question": "What is the core target of test/generative design in product development?",
+              "options": [
+                "Automated hand-sketching of wireframe blueprints",
+                "Algorithm-driven, AI-based exploration of thousands of design alternatives based on material & manufacturing constraints",
+                "Storing CAD data files inside remote tape backups",
+                "Formatting consumer shipping containers"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "id": "qq_101_6",
+              "question": "Which dual application set is most closely associated with AR/VR/MR virtual prototyping?",
+              "options": [
+                "Static financial bookkeeping and manual payroll processing",
+                "Immersive operator training, virtual validation, and product design reviews inside shared workspaces",
+                "Standard structural calculations and paper filing systems",
+                "Writing ladder logic scripts for Siemens micro-controllers"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "id": "qq_101_7",
+              "question": "Which option best reflects the primary goal of circular manufacturing?",
+              "options": [
+                "Maximising assembly lines speed regardless of raw material waste",
+                "Extending product and material lifecycles through reuse, repair, remanufacturing, and recycling resource efficiency",
+                "Replacing all automated machine groups with human hands",
+                "Increasing mineral and raw resource extraction rates"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "id": "qq_101_8",
+              "question": "Which statement best distinguishes a Cyber-Physical System (CPS) from a Digital Twin?",
+              "options": [
+                "CPS is mainly a virtual graphic layout used in design",
+                "CPS integrates sensing, controllers, and actuators to connect/control the physical world, whereas a Digital Twin models, analyzes, and predicts behavior based on live/historical data feeds",
+                "CPS is strictly offline, while Digital Twins must run in space orbits",
+                "CPS eliminates the requirement for secure network protocols"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "id": "qq_101_9",
+              "question": "Which of the following is most critical to maintain a useful real-time Digital Twin?",
+              "options": [
+                "Establishing a static 3D database that is never synchronized with the machine",
+                "Ensuring reliable sensor data feeds and continuous automated synchronization between physical assets and virtual representations",
+                "Replacing network routers with paper ledgers",
+                "Running high-frequency calculations offline and discarding logs"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "id": "qq_101_10",
+              "question": "In advanced digital manufacturing environments, industrial data analytics is primarily implemented to:",
+              "options": [
+                "Enhance operational intelligence through pattern recognition, predictive modelling, and adaptive process optimisation",
+                "Replace cyber-physical communication networks with standalone mechanical belts",
+                "Decline industrial IoT sensors in the factory lines",
+                "Prevent operator interaction entirely"
+              ],
+              "correctAnswer": 0
+            },
+            {
+              "id": "qq_101_11",
+              "question": "What constitutes the value evidence of industrial data platforms shown historically in Siemens Amberg, Bosch, and Unilever?",
+              "options": [
+                "Upwards of 99.9% product quality, OEE efficiency improvements, and energy consumption reductions of 15-20%",
+                "Slightly increased downtime of 12%",
+                "Uncontrolled cost overrides due to cloud database configurations",
+                "Substantial increase in defect rates"
+              ],
+              "correctAnswer": 0
+            },
+            {
+              "id": "qq_101_12",
+              "question": "Under Industry 5.0, what distinguishes collaborative robots (cobots) from conventional automation machinery?",
+              "options": [
+                "Cobots must reside inside closed guarding units with strict safety fences",
+                "Cobots prioritize safe human-robot collaboration, tracking force & proximity inputs to operate safely alongside people in shared workspaces",
+                "Cobots run without electricity or programming logic",
+                "Cobots are made solely for material sorting in outdoor environments"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "id": "qq_101_13",
+              "question": "Which two initial actions must a manufacturing SME prioritize to improve digital transformation readiness?",
+              "options": [
+                "Buying various specialized AI suites immediately to speed up deployment",
+                "Conducting a digital maturity readiness assessment (such as IMPULS) and defining a clear vision aligned with ROI outcomes",
+                "Hiring temporary contract workers and replacing existing legacy machines before standardizing data layers",
+                "Decline standard IT protocols to reduce organizational friction"
+              ],
+              "correctAnswer": 1
+            }
+          ]
+        }
+      ],
+      "assignments": [
+        {
+          "id": "a_101_1",
+          "title": "Project Assignment: Industrial Digital Maturity & Roadmap Formulation",
+          "description": "Prepare an exhaustive Brownfield retrofitting plan or 5-stage transformation roadmap for an existing SME manufacturing floor. Incorporate exact details of CAD/CAE/PDM integrations, digital twin levels, collaborative cobot work cells, carbon lifecycle metrics, and cyber-risk registers.",
+          "dueDate": "Within 10 days",
+          "status": "pending"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rv_101_1",
+          "userId": "u_student_rev_101",
+          "userName": "Ayesha Chowdhury",
+          "rating": 5,
+          "comment": "Absolutely stunning curriculum! The BCU and AIUB researchers provided incredible details matching exactly what is taught in British Transnational modules.",
+          "date": "2026-06-08"
+        }
+      ],
+      "enrollmentCount": 151,
+      "ratingAverage": 4.9,
+      "isPublished": true,
+      "isFree": true
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "e_01",
+      "userId": "u_student",
+      "courseId": "c_1",
+      "progress": 30,
+      "completedLessons": [
+        "l_1_1"
+      ],
+      "quizAttempts": {}
+    },
+    {
+      "id": "e_1780997227392",
+      "userId": "u_student",
+      "courseId": "c_101",
+      "progress": 0,
+      "completedLessons": [],
+      "quizAttempts": {}
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_1",
+      "userId": "u_student",
+      "plan": "pro",
+      "amountPaid": 79,
+      "active": true,
+      "start": "2025-05-01"
+    }
+  ],
+  "certificates": [],
+  "logs": [
+    {
+      "id": "log_1781884866812",
+      "text": "User logged in: Digital Mfg Admin",
+      "type": "login",
+      "userId": "u_admin_1781884729840",
+      "time": "2026-06-19T16:01:06.812Z"
+    },
+    {
+      "id": "log_1781884864852",
+      "text": "User logged in: Pandora Tech (Super Admin)",
+      "type": "login",
+      "userId": "u_super_admin_1781884729551",
+      "time": "2026-06-19T16:01:04.852Z"
+    },
+    {
+      "id": "log_1780997227392",
+      "text": "User u_student enrolled in Course: c_101",
+      "time": "2026-06-09T09:27:07.392Z"
+    },
+    {
+      "id": "log_1",
+      "text": "System Initialized. Connected to Industry 5.0 database simulations.",
+      "time": "2026-06-09T09:21:20.414Z"
+    }
+  ],
+  "learningPaths": [
+    {
+      "id": "lp_1",
+      "title": "Industry 4.0 Cyber-Physical Systems Expert",
+      "description": "An advanced curriculum curated by BCU and AIUB experts. Sequentially links Cyber-Physical synchronisation concepts from Digital Twin introduction to PLC and robotics control systems.",
+      "category": "Smart Factory",
+      "courses": [
+        "c_1",
+        "c_2"
+      ],
+      "instructorId": "u_instructor",
+      "instructorName": "Prof. Dr. Abdur Rahman",
+      "badge": "Cyber-Physical Systems Architect",
+      "enrolledStudents": [
+        "u_student"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ev_1",
+      "title": "Digital Twin Synchronization Workshop",
+      "date": "2026-06-25",
+      "time": "14:00",
+      "host": "Prof Javaid Butt",
+      "type": "UK Webinar",
+      "desc": "Real-time broker synchronization on mechanical systems. Live Q&A regarding our G-Code templates.",
+      "category": "Digital Twin",
+      "attendees": [
+        "u_student"
+      ]
+    },
+    {
+      "id": "ev_2",
+      "title": "Sensory MQTT Networks Audit Symposium",
+      "date": "2026-07-15",
+      "time": "10:00",
+      "host": "Prof. Dr. Abdur Rahman",
+      "type": "AIUB Laboratory",
+      "desc": "Physical assembly robotics telemetry monitoring with Siemens relay structures. On-site seat reservation required.",
+      "category": "Robotics",
+      "attendees": []
+    }
+  ],
+  "messages": [],
+  "assignmentSubmissions": [],
+  "withdrawalRequests": [],
+  "bankAccounts": [],
+  "cmsContent": {
+    "pages": [
+      {
+        "id": "home",
+        "label": "Homepage",
+        "slug": "/",
+        "sections": [
+          {
+            "id": "hero",
+            "type": "hero",
+            "title": "Hero Section",
+            "order": 0,
+            "visible": true,
+            "content": {
+              "badge": "British Council Funded • BCU & AIUB Partnership",
+              "headline": "Digital Manufacturing",
+              "headlineHighlight": "",
+              "subheadline": "",
+              "primaryCTA": "Start Free Learning",
+              "secondaryCTA": "Become Instructor"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "customRoles": [],
+  "mediaLibrary": [],
+  "invites": [],
+  "themeSettings": null,
+  "webinarPosts": [
+    {
+      "id": "wp_seed_1",
+      "title": "Welcome to DMA Academy Platform!",
+      "content": "We are thrilled to announce the official launch of the Digital Manufacturing Academy learning portal — a joint initiative between AIUB and Birmingham City University, funded by the British Council.\n\nThis platform hosts industry-grade courses in Digital Twin Technology, Robotics & PLC Programming, Smart Factory & IoT, Additive Manufacturing, and much more. Start your Industry 4.0 journey today!",
+      "type": "announcement",
+      "authorId": "system",
+      "authorName": "DMA Academy Team",
+      "authorRole": "super_admin",
+      "tags": [
+        "welcome",
+        "launch",
+        "industry-4.0"
+      ],
+      "createdAt": "2026-06-28T09:45:21.688Z",
+      "pinned": true,
+      "views": 0
+    },
+    {
+      "id": "wp_seed_2",
+      "title": "Upcoming Live Webinar: Introduction to Digital Twins",
+      "content": "Join us for an exclusive live session with Dr. Majid Butt from Birmingham City University. We'll cover the fundamentals of Digital Twin technology, real-world deployment scenarios in manufacturing plants, and a hands-on Q&A session.\n\nAll enrolled students and registered users are welcome.",
+      "type": "webinar",
+      "authorId": "system",
+      "authorName": "DMA Academy Team",
+      "authorRole": "admin",
+      "scheduledAt": "2026-07-05T09:45:21.689Z",
+      "meetLink": "https://meet.google.com/dma-webinar-001",
+      "tags": [
+        "digital-twin",
+        "live-session",
+        "bcit"
+      ],
+      "createdAt": "2026-06-28T09:45:21.688Z",
+      "pinned": false,
+      "views": 0
+    },
+    {
+      "id": "wp_seed_3",
+      "title": "New Course Released: Smart Factory & Cyber-Physical Systems",
+      "content": "We've just published a brand-new course module covering MQTT network brokers, sensory casing telemetry, and edge computing fundamentals for smart factory environments.\n\nThis module is available to all Basic, Pro, and Enterprise subscribers. Free learners can preview the first two lessons.",
+      "type": "release",
+      "authorId": "system",
+      "authorName": "Digital Mfg Admin",
+      "authorRole": "admin",
+      "tags": [
+        "new-course",
+        "smart-factory",
+        "iot"
+      ],
+      "createdAt": "2026-06-28T09:45:21.688Z",
+      "pinned": false,
+      "views": 0
+    }
+  ]
+}
